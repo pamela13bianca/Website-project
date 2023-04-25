@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Leo Estela Flower Shop</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <section>
+            <nav>
+                <div>
+                <a href="index.html"> <img src="lelogo1.png"></a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                        <li> <a href="web.html">HOME</a></li>
+                        <li><a href="book now.html">BOOK NOW</a></li> 
+                        <li> <a href="category.html">CATEGORY</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section> 
+        <div class="form">
+        <h1>About Us</h1>
+        <div class="gallery">
+            <tr>
+        <td><img src="..." class="rounded float-left" alt="owner"></td>
+        <td><h1>ALPHA MAE HERMOSA</h1</td>
+        <br>
+        <br>
+        <br>
+        </tr>
+        <h3>•	Leo & Estela Flower Shop started because of Alpha Mae Hermosura’s mother who was supported by her father until they became married way back In 1995 and Alpha Mae is now the owner of the flower shop.<br><br>
+            •	Leo & Estela has been on this business for over 26 years, their clients came from various places Baguio City, Dagupan City, and various places of Pangasinan.<br><br>
+            •	The Leo & Estela Flower Shop improved in 2000, the shop became legal at that time so technically in the year 2000 they really started their business.<br><br>
+            •	At the age of 12 Alpha Mae is already helping her parents with their business and it’s been 10 years since Alpha Mae became the owner of their flower shop.<br><br>
+            •	The name of their flower shop comes from the name of the parents of the current owner of Leo & Estella flower shop, Leo which is her father’s name and Estela which is her mother’s name.<br><br>
+        </h3>
+        </div> 
+    
+    </div>
+    <div class="content">
+        <br>
+        <br>
+        <h1>Contact Us</h1>
+        <br>
+        <br>
+        <h3>
+            Address<br><br>Telephone/Mobile Number<br><br>Instagram<br><br>Facebook<br>
+            <br><br>
+            Cheap & Affordable Flower arrangement but,<br> elegant and satisfying in your eyes..<br>
+        </h3>
+    </div>
+
+    </body>
+ </html> 
