@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Leo Estela Flower Shop</title>
+        <link rel="icon" href="pictures/lelego1.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+       <link rel="stylesheet" href="design.css">
+    </head>
+    <body class="body">
+            <section class="header">
+                <nav>
+                    <div>
+                    <a href="web.html"> <img src="lelogo1.png"></a></div>
+                    <div class="nav-links">
+                        <ul>
+                            <li>
+                               <li><a href="web.html">HOME</a></li>
+                               <li> <a href="book now.html">BOOK NOW</a></li>
+                               <li><a href="category.html">CATEGORY</a></li>  
+                               <li><a href="about.html">ABOUT</a></li>   
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+<div class="text-box">
+    <h1><br>&nbsp; Leo Estela <br>&nbsp; Flower Shop</h1>
+    <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="book now.html" class="hero-btn">BOOK NOW</a>
+            </section>
+        <div class="about-content"><img src="Le1.jpg"></div>
+
+        <div class="form">
+            <h1>About Us</h1>
+            <div class="gallery">
+                <tr>
+            <td><img src="..." class="rounded float-left" alt="owner"></td>
+            <td><h1>ALPHA MAE HERMOSA</h1></td>
+            <br>
+            <br>
+            <br>
+            </tr>
+            <h3>•	Leo & Estela Flower Shop started because of Alpha Mae Hermosura’s mother who was supported by her father until they became married way back In 1995 and Alpha Mae is now the owner of the flower shop.<br><br>
+                •	Leo & Estela has been on this business for over 26 years, their clients came from various places Baguio City, Dagupan City, and various places of Pangasinan.<br><br>
+                •	The Leo & Estela Flower Shop improved in 2000, the shop became legal at that time so technically in the year 2000 they really started their business.<br><br>
+                •	At the age of 12 Alpha Mae is already helping her parents with their business and it’s been 10 years since Alpha Mae became the owner of their flower shop.<br><br>
+                •	The name of their flower shop comes from the name of the parents of the current owner of Leo & Estella flower shop, Leo which is her father’s name and Estela which is her mother’s name.<br><br>
+            </h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="category-btn">
+                <br>
+                <br>
+                <ul>
+                <li><h3> <a href="category.html" class="btn btn-3"> Gift Boquet</a></h3></li>
+                </ul>
+                <br>
+                <br>
+            </div>
+            <center>
+            <table class="table" position="center">
+                <tr class="customize">
+                    <td><br><img src="gft2.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                    <td><br><img src="gft.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                    <td><br><img src="gft3.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                </tr>
+            </table>
+            </center>
+            <div class="category-btn">
+                <br>
+                <br>
+                <ul>
+                <li><h3> <a href="category.html" class="btn btn-3">Customize</a></h3></li>
+                </ul>
+                <br>
+                <br>
+            </div>
+                <center>
+                <table class="table" position="center">
+                    <tr class="customize">
+                        <td><br><img src="cstm1.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                        <td><br><img src="cstm2.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                        <td><br><img src="cstm3.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                    </tr>
+                </table>
+                </center>
+        
+            <br>
+            <br>
+            <br>
+            <div class="book">
+                <br>
+                <br>
+                <h1>Book Now!</h1>
+                <br>
+                <br>
+                <form class="mane">
+                    <div>
+                       
+                        <h2>&nbsp; &nbsp; &nbsp; &nbsp;Name</h2> 
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="firstname" type="text" name="first_name" placeholder="First Name">
+                        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="lastname" type="text" name="last_name" placeholder="Last Name"><br><br><br><br>
+                       
+                        <h2>&nbsp; &nbsp; &nbsp; &nbsp;Category</h2>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="category" type="text" name="category#" placeholder="Category">
+                        <br><br><br><br>
+    
+                        <h2>&nbsp; &nbsp;  &nbsp; &nbsp;E-mail</h2>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="email" type="text" name="E-mail" placeholder="leoestela@email.com"><br><br><br><br>
+    
+                        <h2>&nbsp; &nbsp; &nbsp; &nbsp;Address</h2>
+                        &nbsp; &nbsp;  &nbsp; &nbsp;
+                        <input class="phone" type="text" name="Phone_number" placeholder="Contact#"><br><br><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="address" type="text" name="address" placeholder="House no./Brgy./Town">
+                        <br><br><br><br>
+                        <button class="submit">Order</button>
+    
+                    </div>
+                    <div class= "content">
+                        <br>
+                        <br>
+                        <h1>Contact Us</h1>
+                        <br>
+                        <br>
+                        <h3>
+                        Od Caritas Clinic, Zamora St. Dagupan City, Pangasinan<br><br>+639164298287<br><br>Instagram<br><br>Leo Estela Flower Shop<br>
+                        <br><br>
+                        Cheap & Affordable Flower arrangement but,<br> elegant and satisfying in your eyes..<br>
+                        </h3>
+                    </div>
+                    <br>
+                    <br>
+                    <section class="footer">
+
+                        <div class="share">
+                            <li><a href="https://www.facebook.com/cafederoyale" class="fab fa-facebook-f" target="blank">&nbsp;leoestelaflowershop@facebook.com</a></li>
+                            <li><a href="https://www.instagram.com/_lovealaina/" class="fab fa-instagram" target="blank">&nbsp;@leoestela_flowershop</a></li>
+                        </div><br><br><br><br>
+                        <div class="credit"><h3>Created by:Group D Team | all rights reserved</h3></div>
+                    
+                    </section>
+                    <script src="js/script.js"></script>
+                        </body>
+        
+
+    </body>
+</html>
