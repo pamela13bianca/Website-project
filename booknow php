@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Leo Estela Flower Shop</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+
+        <section>
+            <nav>
+                <div>
+                <a href="web.html"> <img src="lelogo1.png"></a>
+            </div>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                        <li> <a href="web.html">HOME</a></li>
+                        <li><a href="book now.html">BOOK NOW</a></li> 
+                        <li> <a href="category.html">CATEGORY</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <div class="form">
+            <br>
+            <br>
+            <h1>Book Now!</h1>
+            <br>
+            <br>
+            <?php
+            if(isset($_POST['order'])){
+
+
+            
+$first_name = $_POST['first_name'];
+$last_name = $_POST['last_name'];
+$category = $_POST['category'];
+$quantity = $_POST['quantity'];
+$e_mail = $_POST['e_mail'];
+$phone_number = $_POST['phone_number'];
+$address = $_POST['address'];
+$municipality = $_POST['municipality'];
+
+$conn = mysqli_connect('localhost','root','','order');
+if($conn->connect_error){
+    die('Connection Failed: '.$conn->connect_error);
+}else{
+    $stmt = mysqli_query($conn,"Insert into book_now(firstname, lastname,category,quantity,email,phone,address,municipality)
+        values('$first_name','$last_name','$category','$quantity','$e_mail','$phone_number','$address','$municipality')");
+        if($stmt == true){
+            echo "<script> alert('Successfully inserted!')
+            window.location.href='book_now.php'
+      
+      </script>";
+      
+     }else{
+        echo "<script> alert('Something wrong, try again')
+        window.location.href='book_now.php'
+  
+  </script>";
+     }
+}   
+            }
+?>
+            <form class="mane">
+                <div>
+                   
+                    <h2>&nbsp; &nbsp;Name</h2> 
+                    &nbsp; &nbsp;
+                    <input class="firstname" type="text" name="first_name" placeholder="First Name">
+                    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    <input class="lastname" type="text" name="last_name" placeholder="Last Name"><br><br><br><br>
+                   
+                    <h2>&nbsp; &nbsp;Category</h2>
+                    &nbsp; &nbsp;
+                    <input class="category" type="text" name="category#" placeholder="Category">
+                    <br><br><br><br>
+
+                    <h2>&nbsp; &nbsp;E-mail</h2>
+                    &nbsp; &nbsp;
+                    <input class="email" type="text" name="E-mail" placeholder="leoestela@email.com"><br><br><br><br>
+
+                    <h2>&nbsp; &nbsp;Address</h2>
+                    &nbsp; &nbsp; 
+                    <input class="code" type="text" name="area_code" placeholder="Zipcode">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input class="phone" type="text" name="Phone_number" placeholder="Contact#"><br><br><br>
+                    &nbsp; &nbsp;
+                    <input class="address" type="text" name="address" placeholder="House no./Brgy./Town">
+                    <br><br><br><br>
+                    <button class="submit">Order</button>
+
+                </div>
+            </form>
+         
+        </div>
+    </body>
+    </html> 
