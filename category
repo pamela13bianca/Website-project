@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Leo Estela Flower Shop</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <section>
+            <nav>
+                <div>
+                <a href="web.html"> <img src="lelogo1.png"></a></div>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                        <li> <a href="web.html">HOME</a></li>
+                        <li> <a href="book now.html">BOOK NOW</a></li>
+                        <li> <a href="category.html">CATEGORY</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <div class="category-btn">
+            <br>
+            <br>
+            <ul>
+            <li><h3> <a href="category.html" class="btn btn-3">Bridal Boquet</a></h3></li>
+            <li><h3> <a href="customize.html" class="btn btn-3">Customize</a></h3></li>
+            <li><h3> <a href="gift surprise.html" class="btn btn-3">Gift Surprise</a></h3></li>
+            <li><h3> <a href="funeral flowers.html" class="btn btn-3">Funeral Flowers</a></h3></li>
+            <li><h3> <a href="wedding decorations.html" class="btn btn-3">Wedding Decorations</a></h3></li>
+            </ul>
+            <br>
+            <br>
+        </div>
+        <center>
+        <table class="table" position="center">
+            <tr class="customize">
+                <td><br><img src="wed1.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                <td><br><img src="wed2.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                <td><br><img src="wed1.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+            </tr>
+            <tr class="cusomize-1">
+                <td><h2><center><br>Bridal Boquet #1</center></h2></td>
+                <td><h2><center><br>Bridal Boquet #2</center></h2></td>
+                <td><h2><center><br>Bridal Boquet #3</center></h2></td>
+            </tr>
+            <tr class="customize">
+                <td><br><img src="wed1.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                <td><br><img src="wed2.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+                <td><br><img src="wed1.jpg" class="rounded float-left" alt="gift1" width="380" height="300"></td>
+            </tr>
+            <tr class="cusomize-1">
+                <td><h2><center><br>Bridal Boquet #4</center></h2></td>
+                <td><h2><center><br>Bridal Boquet #5</center></h2></td>
+                <td><h2><center><br>Bridal Boquet #6</center></h2></td>
+            </tr>
+        </table>
+        </center>
+</body>
+</html> 
